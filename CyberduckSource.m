@@ -6,8 +6,6 @@
 //
 
 #import "CyberduckSource.h"
-#import <QSCore/QSObject.h>
-
 
 @implementation CyberduckSource
 - (BOOL)indexIsValidFromDate:(NSDate *)indexDate forEntry:(NSDictionary *)theEntry{
