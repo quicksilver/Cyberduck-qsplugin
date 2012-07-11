@@ -41,7 +41,7 @@
 		<string>ch.sudo.cyberduck</string>
 		<key>qsversion</key>
 		<string>29CC</string>
-		<key>relatedBundles </key>
+		<key>relatedBundles</key>
 		<array>
 			<string>ch.sudo.cyberduck</string>
 		</array>
