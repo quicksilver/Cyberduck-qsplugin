@@ -5,13 +5,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>Cyberduck</string>
+	<string>Cyberduck Plugin</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.blacktree.Quicksilver.Cyberduck</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Cyberduck Module</string>
+	<string>Cyberduck Plugin</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleSignature</key>
@@ -29,7 +29,7 @@
 			<string>Internet</string>
 		</array>
 		<key>description</key>
-		<string>Cyberduck Module</string>
+		<string>Cyberduck Quicksilver Plugin</string>
 		<key>extendedDescription</key>
 		<string>&lt;h2&gt;Cyberduck&lt;/h2&gt;
 
