@@ -5,21 +5,25 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>Cyberduck</string>
+	<string>Cyberduck Plugin</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.blacktree.Quicksilver.Cyberduck</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Cyberduck Module</string>
+	<string>Cyberduck Plugin</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleSignature</key>
 	<string>2.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>38</string>
-	<key>NSPrincipalClass</key>
+	<string>39</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.1.0</string>
+	<key>CFBundleDisplayName</key>
 	<string>Cyberduck</string>
+	<key>NSPrincipalClass</key>
+	<string>CyberduckSource</string>
 	<key>QSPlugIn</key>
 	<dict>
 		<key>author</key>
@@ -29,7 +33,7 @@
 			<string>Internet</string>
 		</array>
 		<key>description</key>
-		<string>Cyberduck Module</string>
+		<string>Cyberduck Quicksilver Plugin</string>
 		<key>extendedDescription</key>
 		<string>&lt;h2&gt;Cyberduck&lt;/h2&gt;
 
@@ -41,12 +45,10 @@
 		<string>ch.sudo.cyberduck</string>
 		<key>qsversion</key>
 		<string>29CC</string>
-		<key>relatedBundles </key>
+		<key>relatedBundles</key>
 		<array>
 			<string>ch.sudo.cyberduck</string>
 		</array>
-		<key>requiresBundle</key>
-		<string>ch.sudo.cyberduck</string>
 	</dict>
 	<key>QSPresetAdditions</key>
 	<array>

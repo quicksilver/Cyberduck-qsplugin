@@ -6,14 +6,12 @@
 //
 
 #import "CyberduckSource.h"
-#import <QSCore/QSObject.h>
-
 
 @implementation CyberduckSource
 - (BOOL)indexIsValidFromDate:(NSDate *)indexDate forEntry:(NSDictionary *)theEntry{
     NSString *path = [@"~/Library/Application Support/Cyberduck/Bookmarks" stringByStandardizingPath];
     NSFileManager *manager = [NSFileManager defaultManager];
-    NSArray *contents = [manager directoryContentsAtPath:path];
+    NSArray *contents = [manager contentsOfDirectoryAtPath:path error:nil];
     for (NSString *bookmark in contents) {
         bookmark = [path stringByAppendingPathComponent:bookmark];
         NSDate *modified = [[manager attributesOfItemAtPath:bookmark error:NULL] fileModificationDate];
@@ -35,7 +33,7 @@
 - (NSArray *) objectsForEntry:(NSDictionary *)theEntry{
     NSString *path = [@"~/Library/Application Support/Cyberduck/Bookmarks" stringByStandardizingPath];
     NSFileManager *manager = [NSFileManager defaultManager];
-    NSArray *contents = [manager directoryContentsAtPath:path];
+    NSArray *contents = [manager contentsOfDirectoryAtPath:path error:nil];
     NSMutableArray *objects=[NSMutableArray arrayWithCapacity:1];
     for (NSString *bookmark in contents) {
         QSObject *newObject = nil;
